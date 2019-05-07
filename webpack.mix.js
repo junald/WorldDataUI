@@ -72,7 +72,7 @@ mix.copy('index.html', 'dist/')
 
 // ===compile our main.js file
 //when compiling add 'dist/'
-mix.js('src/main.js', 'dist/')
+mix.js('src/main.js', '/')
     // Add any additional vendor modules that need to be cached
     // remove any unused libraries in the array as they will be included in the vendor bundle
     .extract(['vue', 'bootstrap-vue', 'animejs', 'axios', 'vue-echarts-v3/src/full.js','vue2-dropzone'])
